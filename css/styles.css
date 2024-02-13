@@ -1,0 +1,39 @@
+
+*{
+  margin: 0;
+  padding: 0;
+ }
+body {
+background: black;
+color: yellow;
+       }
+header{
+  display: flex;
+  justify-content: center;
+       }
+.Logo, .Top_menu{
+  margin-right: 25px;
+        display:inline-block;
+        vertical-align: middle;
+       }
+.Top_menu li{
+  margin-right: 25px;
+        display:inline-block ;
+        vertical-align: middle;
+       }
+.Top_menu a{
+  vertical-align: middle;
+  font-family: arial;
+  font-size: 20px;
+  color:yellow ;
+  text-decoration: none;
+       }
+       .Top_menu a:hover{
+  color: forestgreen;
+       }
+.Logo h1{
+  vertical-align: middle;
+  font-family: arial,;
+  font-size: 30px;
+  color: gold;
+       }
