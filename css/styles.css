@@ -7,33 +7,32 @@ body {
 background: black;
 color: yellow;
        }
-header{
+header {
   display: flex;
   justify-content: center;
        }
-.Logo, .Top_menu{
-  margin-right: 25px;
-        display:inline-block;
-        vertical-align: middle;
-       }
-.Top_menu li{
-  margin-right: 25px;
-        display:inline-block ;
-        vertical-align: middle;
-       }
-.Top_menu a{
+.logo, .top_menu {
+  margin-right: 15px;
+  display: inline-block;
   vertical-align: middle;
+       }
+.top_menu li{
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+       }
+.top_menu a   {
   font-family: arial;
-  font-size: 20px;
-  color:yellow ;
+  font-size: 16px;
+  color: goldenrod;
   text-decoration: none;
-       }
-       .Top_menu a:hover{
-  color: forestgreen;
-       }
-.Logo h1{
   vertical-align: middle;
-  font-family: arial,;
-  font-size: 30px;
-  color: gold;
+       }  
+.top_menu a:hover{
+  color: maroon;
+}
+.logo h1 {
+  font-family: arial;
+  font-size: 18px;
+vertical-align: middle;
        }
